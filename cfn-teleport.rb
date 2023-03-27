@@ -8,12 +8,12 @@ class CfnTeleport < Formula
   license "Apache-2.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/udondan/cfn-teleport/releases/download/9.9.9/artifacts/cfn-teleport-x86_64-apple-darwin-v9.9.9.dmg"
-    sha256 "03026ad4e2a5a3f678df3443b4413db2c1cdbb79f5cfd981a1148b385de4f378"
+    url "https://github.com/udondan/cfn-teleport/releases/download/v9.9.9/artifacts/cfn-teleport-x86_64-apple-darwin-v9.9.9.dmg"
+    sha256 "78b415e5516256010544e796821134aca4409952dcef932b9cf23b7e170873b9"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/udondan/cfn-teleport/releases/download/9.9.9/artifacts/cfn-teleport-aarch64-apple-darwin-v9.9.9.dmg"
-    sha256 "b9419ba1b7c9e38ac89dec99999b3898763d2433997fcbc6e59c24cde9a20d80"
+    url "https://github.com/udondan/cfn-teleport/releases/download/v9.9.9/artifacts/cfn-teleport-aarch64-apple-darwin-v9.9.9.dmg"
+    sha256 "36a324447f0f487ef29f7f490c35977314d282f2b55da769e3ec205c424b951c"
   end
 
   def install
