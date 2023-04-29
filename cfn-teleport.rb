@@ -9,11 +9,11 @@ class CfnTeleport < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/udondan/cfn-teleport/releases/download/v9.9.9/cfn-teleport-x86_64-apple-darwin-v9.9.9.dmg"
-    sha256 "96fa52b310de16743b3efd70583c402d70d708b19aa50dda4efd73d49d68224f"
+    sha256 "05acfe0a237bb57e64edbf62e75ff51508f20f4167dd9db87b0031ddb6fba6ad"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/udondan/cfn-teleport/releases/download/v9.9.9/cfn-teleport-aarch64-apple-darwin-v9.9.9.dmg"
-    sha256 "17785e81ed90ea789857cf3fe429cd53ada797ea0d33bba41fde320898863729"
+    sha256 "f9c79d02bca07c2b909204a9d7ed91e84960ad7ff9df0f8be106e504e0b258a2"
   end
 
   def install
