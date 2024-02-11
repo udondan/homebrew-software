@@ -4,33 +4,33 @@
 class CfnTeleport < Formula
   desc "A command line-tool which can move CloudFormation resources between stacks"
   homepage "https://github.com/udondan/cfn-teleport"
-  version "0.12.0"
+  version "0.13.0"
   license "Apache-2.0"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/udondan/cfn-teleport/releases/download/v0.12.0/cfn-teleport-x86_64-apple-darwin-v0.12.0.dmg"
-      sha256 "bd9de35a6561e3604b58a3e8951082505047a99bdce1453225f485f4013d1575"
+      url "https://github.com/udondan/cfn-teleport/releases/download/v0.13.0/cfn-teleport-x86_64-apple-darwin-v0.13.0.dmg"
+      sha256 "4d1bdb9a02fda67550a3477de707ca8ce7d802980c388885a4e24a3a2b1ee994"
     elsif Hardware::CPU.arm?
-      url "https://github.com/udondan/cfn-teleport/releases/download/v0.12.0/cfn-teleport-aarch64-apple-darwin-v0.12.0.dmg"
-      sha256 "202de3420dc09f25576cb58fea00eabfda38397a5d9c21cc0e2dc06ca9b44c17"
+      url "https://github.com/udondan/cfn-teleport/releases/download/v0.13.0/cfn-teleport-aarch64-apple-darwin-v0.13.0.dmg"
+      sha256 "8c469272011d92b13721a075e8c76c60e053c228bf6c2563c7a0546c130a167e"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/udondan/cfn-teleport/releases/download/v0.12.0/cfn-teleport-aarch64-unknown-linux-gnu-v0.12.0.tar.gz"
-        sha256 "3e9aabd5ad273a4e16b50c610ce34b5f6bb9afdbbc9407085d20a2adcd3a643c"
+        url "https://github.com/udondan/cfn-teleport/releases/download/v0.13.0/cfn-teleport-aarch64-unknown-linux-gnu-v0.13.0.tar.gz"
+        sha256 "1616dfb927db95e4a32e317224e6f06eecc9a704b4cc11c16f3b047c37770a44"
       elsif Hardware::CPU.is_32_bit?
-        url "https://github.com/udondan/cfn-teleport/releases/download/v0.12.0/cfn-teleport-arm-unknown-linux-gnueabihf-v0.12.0.tar.gz"
-        sha256 "d2380e22bdb42383a2885ad756535b3ab7f8bf9517b77ddd1aaa1b35f330984f"
+        url "https://github.com/udondan/cfn-teleport/releases/download/v0.13.0/cfn-teleport-arm-unknown-linux-gnueabihf-v0.13.0.tar.gz"
+        sha256 "1def790bfd13f369152533df6a3bd4d8d4a61189be96bd6a1a6da3716e679dae"
       end
     elsif Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/udondan/cfn-teleport/releases/download/v0.12.0/cfn-teleport-x86_64-unknown-linux-gnu-v0.12.0.tar.gz"
-        sha256 "b7d3d9664e3ba3ff4c33b57dbc8940f451d1cab479c9018c8feae8b22bc188cf"
+        url "https://github.com/udondan/cfn-teleport/releases/download/v0.13.0/cfn-teleport-x86_64-unknown-linux-gnu-v0.13.0.tar.gz"
+        sha256 "b0d7e62128de159bb0ccecbc1b9b78e2253f2ba0512c5e7468d81a3f377b2b2f"
       elsif Hardware::CPU.is_32_bit?
-        url "https://github.com/udondan/cfn-teleport/releases/download/v0.12.0/cfn-teleport-i686-unknown-linux-gnu-v0.12.0.tar.gz"
-        sha256 "6792473c14eb2f8a512dd7deaf0f3738fc135a9bd475bd609f94efa545ed6f03"
+        url "https://github.com/udondan/cfn-teleport/releases/download/v0.13.0/cfn-teleport-i686-unknown-linux-gnu-v0.13.0.tar.gz"
+        sha256 "06a7f5cecc1bcb3b06efa3756b296feb42410aebe2892c46a1d5192ea5ccaff9"
       end
     end
   end
