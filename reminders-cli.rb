@@ -1,10 +1,10 @@
 class RemindersCli < Formula
   desc "Interact with macOS Reminders from the command line"
   homepage "https://github.com/udondan/reminders-cli"
-  version "3.3.0"
+  version "3.4.0"
   license "MIT"
-  url "https://github.com/udondan/reminders-cli/releases/download/v3.3.0/reminders.tar.gz"
-  sha256 "9379f2741b4d5a6919929ff49b049ced6fe1b9382757ef9c309f0d2e293bba06"
+  url "https://github.com/udondan/reminders-cli/releases/download/v3.4.0/reminders.tar.gz"
+  sha256 "d350a74294234689adfc3c7cf438918cb6b54a1c1debf5cfc0e5f90774236b9e"
 
   def install
     bin.install "reminders"
