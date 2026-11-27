@@ -4,28 +4,28 @@
 class Fritz < Formula
   desc "CLI and MCP server for FRITZ!Box routers (unofficial)"
   homepage "https://github.com/udondan/fritz"
-  version "0.2.2"
+  version "0.2.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.2/fritz-0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "3f09de4529bde4d353487dbf54c9331e331b33ae1615d90cb98cb7c8585d4187"
+      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.3/fritz-0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "de0700718f8cc02e7c858fb084f64d6f1c40037584ba7737d5d7197f0f39e1f3"
     end
     on_intel do
-      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.2/fritz-0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "a7f74f58116b1b69b756dbd627dd9eb11906255b7422e972b0dda23f7166d1d1"
+      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.3/fritz-0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "66989ffecf4604307c4cadb3d08826ef3025dc5aeba9c50fee3963983a67a89a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.2/fritz-0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "070df9ae95827221b93bd3f6d32dfa9b75add859c738d657f6d6a3e1f8a8a82b"
+      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.3/fritz-0.2.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7ee2ffae6d7deccd6f78a797c06bb6205f2fc55014542b9c8af9ff5bfbd267b3"
     end
     on_intel do
-      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.2/fritz-0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8c3a992ffad83125fe317db0db6a85ba388eb12d624dc32d059220c043238682"
+      url "https://github.com/udondan/fritz/releases/download/fritz-v0.2.3/fritz-0.2.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "48b30989c910b48ec7af9a37ca5e65276f2e7a7ad624f7f832423bba1d0ea7c2"
     end
   end
 
