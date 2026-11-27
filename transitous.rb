@@ -4,28 +4,28 @@
 class Transitous < Formula
   desc "CLI and MCP server for public transport on Transitous, with realtime status"
   homepage "https://github.com/udondan/transitous"
-  version "0.1.0"
+  version "1.0.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/udondan/transitous/releases/download/transitous-v0.1.0/transitous-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0299adfdc695e4e7121526d05f2ead5d97148195268d477588e3f76effaa6506"
+      url "https://github.com/udondan/transitous/releases/download/transitous-v1.0.0/transitous-1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fb6e4fa549c594931dfb996836b44abe822e0786a8323a83e2b487dc69ee3fc0"
     end
     on_intel do
-      url "https://github.com/udondan/transitous/releases/download/transitous-v0.1.0/transitous-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "90f92236ba5b3e24a447c31d5453e9b9912a008766f3e819dbcb721acc6b6078"
+      url "https://github.com/udondan/transitous/releases/download/transitous-v1.0.0/transitous-1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d128021bac58a5179d01157b9ee3e229a20c21332c0bc08247449c8ddf77335f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/udondan/transitous/releases/download/transitous-v0.1.0/transitous-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c55d52873c5bcc336c583b74dec4c2433579ae1a28d271142aba26071bf65815"
+      url "https://github.com/udondan/transitous/releases/download/transitous-v1.0.0/transitous-1.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "021c221e49cec651442e628a5922db85f559f58e738ce24080ccbeb4f15c5918"
     end
     on_intel do
-      url "https://github.com/udondan/transitous/releases/download/transitous-v0.1.0/transitous-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "593c88b4688493a74767b3f8d250adf1443a93c89c9b5ac3d50d189a99f31a6e"
+      url "https://github.com/udondan/transitous/releases/download/transitous-v1.0.0/transitous-1.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "519c7d945b3eb6aae59f267204c2b2ea85226affbe3e8c280214865c7fedf933"
     end
   end
 
